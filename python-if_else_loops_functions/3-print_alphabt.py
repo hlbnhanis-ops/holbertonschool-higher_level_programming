@@ -1,10 +1,5 @@
 #!/usr/bin/python3
 
-print(''.join(
-    chr(c)
-    for r in [range(ord('a'), ord('e')),
-              range(ord('f'), ord('q')),
-              range(ord('r'), ord('z'))]
-    for c in r
-))
-
+for i in range(26):
+    if chr(ord('a') + i) not in 'eq':
+        print('{}'.format(chr(ord('a') + i)), end='')
