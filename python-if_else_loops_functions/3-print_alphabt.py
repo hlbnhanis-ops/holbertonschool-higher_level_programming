@@ -1,3 +1,10 @@
 #!/usr/bin/python3
-for i in [range(ord('a'),ord('e')), range(ord('f'),ord('q')), range(ord('r'),ord('z'))]:
-    print('{}'.format(chr(i)), end='')
+
+print(''.join(
+    chr(c)
+    for r in [range(ord('a'), ord('e')),
+              range(ord('f'), ord('q')),
+              range(ord('r'), ord('z'))]
+    for c in r
+))
+
