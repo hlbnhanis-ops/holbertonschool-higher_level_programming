@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # 1-square.py
-#.
-"""x."""
+# Brennan D Baraban <375@holbertonschool.com>
+"""Define a class Square."""
 
 
 class Square:
-    """x."""
-    
+    """Represent a square."""
+
     def __init__(self, size):
         """Initialize a new Square.
 
