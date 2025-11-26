@@ -2,6 +2,7 @@
 # 0-square.py
 """x."""
 
+
 class Square:
     """x."""
     pass
