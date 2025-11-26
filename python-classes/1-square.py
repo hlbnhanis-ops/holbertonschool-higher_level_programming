@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # 1-square.py
+#.
 """x."""
 
 
