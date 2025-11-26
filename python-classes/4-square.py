@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 1-square.py
+# 4-square.py
 # Anis Hamila <12611@holbertonsstudents.com>
 """Define a class Square."""
 
