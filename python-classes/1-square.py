@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# 0-square.py
+"""x."""
+
 
 class Square:
     def __init__(self, size):
