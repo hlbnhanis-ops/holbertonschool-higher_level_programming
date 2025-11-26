@@ -6,9 +6,6 @@ class Square:
         x
         """
         if not isinstance(size, int):
-            """
-            x
-            """
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
