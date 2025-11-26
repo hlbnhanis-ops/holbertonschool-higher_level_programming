@@ -4,6 +4,8 @@
 
 
 class Square:
+    """x."""
+    
     def __init__(self, size):
         """
         x
